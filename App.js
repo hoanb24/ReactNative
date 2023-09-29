@@ -1,11 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import PressAbleContent from './Component/ultis/PressAbleContent';
+import ViewBottom from './Component/Bottom/ViewBottom';
+import ButtonContent from './Component/ultis/ButtonContent';
+import ButtonAction from './Component/ultis/ButtonAction';
+import BigView from './Component/BigView';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <BigView />
+
     </View>
   );
 }
